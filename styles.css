@@ -195,6 +195,7 @@ figure {
 #contato h1 {
     margin-bottom: 50px;
     text-align: center;
+    display: none;
 }
 
 .contato2 {
@@ -237,7 +238,7 @@ figure {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .name {
         margin-bottom: 50px;
         margin-top: 25px;
@@ -300,4 +301,8 @@ figure {
         height: 50px;
         font-size: 25px;
     }
+}
+
+footer p {
+    font-size: 14px;
 }
