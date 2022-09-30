@@ -61,7 +61,7 @@ h1 {
 }
 
 #aboutme {
-    margin: 0 100px;
+    margin: 0 200px;
     margin-bottom: 200px;
 }
 
@@ -229,4 +229,9 @@ figure {
     height: 200px;
     border-radius: 50%;
     margin-top: 150px;
+}
+
+.name {
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
