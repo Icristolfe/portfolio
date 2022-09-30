@@ -239,6 +239,15 @@ figure {
 
 
 @media only screen and (max-width: 500px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgb(0,0,1);
+        background: linear-gradient(180deg, rgba(0,0,1,1) 15%, rgba(34,33,33,1) 92%, rgba(131,131,131,1) 100%);
+        max-width: 100%;
+    }
+
     .name {
         margin-bottom: 50px;
         margin-top: 25px;
