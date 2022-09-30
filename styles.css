@@ -303,6 +303,7 @@ figure {
     }
 
     nav {
+        padding-top: 25px;
         display: flex;
         flex-direction: row;
         margin-bottom: 40px;
