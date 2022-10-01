@@ -9,6 +9,10 @@
 
 body {
     background: #000;
+    background: rgb(0, 0, 1);
+    background: linear-gradient(180deg, rgba(0, 0, 1, 1) 15%, rgba(34, 33, 33, 1) 92%, rgba(131, 131, 131, 1) 100%);
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -50,8 +54,8 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgb(0,0,1);
-    background: linear-gradient(180deg, rgba(0,0,1,1) 15%, rgba(34,33,33,1) 92%, rgba(131,131,131,1) 100%);
+    background: rgb(0, 0, 1);
+    background: linear-gradient(180deg, rgba(0, 0, 1, 1) 15%, rgba(34, 33, 33, 1) 92%, rgba(131, 131, 131, 1) 100%);
 
 }
 
@@ -153,7 +157,7 @@ figure {
 
 .carrosel::-webkit-scrollbar {
     width: 15px;
-    height: 15px;
+    height: 12px;
     background-color: #363636;
 }
 
@@ -244,11 +248,11 @@ footer p {
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-device-width: 400px) {
 
     body {
-        background: rgb(0,0,1);
-        background: linear-gradient(180deg, rgba(0,0,1,1) 15%, rgba(34,33,33,1) 92%, rgba(131,131,131,1) 100%);
+        background: rgb(0, 0, 1);
+        background: linear-gradient(180deg, rgba(0, 0, 1, 1) 15%, rgba(34, 33, 33, 1) 92%, rgba(131, 131, 131, 1) 100%);
         display: flex;
         flex-direction: column;
 
@@ -258,13 +262,13 @@ footer p {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: rgb(0,0,1);
-        background: linear-gradient(180deg, rgba(0,0,1,1) 15%, rgba(34,33,33,1) 92%, rgba(131,131,131,1) 100%);
+        background: rgb(0, 0, 1);
+        background: linear-gradient(180deg, rgba(0, 0, 1, 1) 15%, rgba(34, 33, 33, 1) 92%, rgba(131, 131, 131, 1) 100%);
     }
 
     h1 {
         font-size: 35px;
-        }
+    }
 
     .name {
         margin-bottom: 75px;
@@ -305,7 +309,7 @@ footer p {
         display: flex;
         flex-direction: column;
         align-items: center;
-    
+
     }
 
     nav {
@@ -349,7 +353,7 @@ footer p {
         padding-left: 60px;
         margin-bottom: 60px;
     }
-    
+
     .card {
         width: 60%;
         height: 70%;
@@ -357,7 +361,7 @@ footer p {
         align-items: center;
         flex-direction: column;
         padding-top: 10px;
-    
+
     }
 
     .perfil {
@@ -366,6 +370,7 @@ footer p {
         border-radius: 50%;
         margin-top: 100px;
     }
+
     p {
         text-align: center;
         font-size: 18px;
@@ -382,5 +387,23 @@ footer p {
         margin-bottom: 15px;
         font-size: 16px;
     }
-    
+
+}
+
+    @media only screen and (max-device-width: 700px) {
+
+    body {
+        background: rgb(0, 0, 1);
+        background: linear-gradient(180deg, rgba(0, 0, 1, 1) 15%, rgba(34, 33, 33, 1) 92%, rgba(131, 131, 131, 1) 100%);
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #aboutme {
+        margin: 0 100px;
+        margin-bottom: 100px;
+    }
+
+
 }
