@@ -248,7 +248,26 @@ footer p {
 }
 
 
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-device-width: 768px) {
+
+    body {
+        background: rgb(0, 0, 1);
+        background: linear-gradient(180deg, rgba(0, 0, 1, 1) 15%, rgba(34, 33, 33, 1) 92%, rgba(131, 131, 131, 1) 100%);
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #aboutme {
+        margin: 0 100px;
+        margin-bottom: 100px;
+    }
+
+
+}
+
+
+@media only screen and (max-device-width: 600px) {
 
     body {
         background: rgb(0, 0, 1);
@@ -387,23 +406,5 @@ footer p {
         margin-bottom: 15px;
         font-size: 16px;
     }
-
-}
-
-    @media only screen and (max-device-width: 700px) {
-
-    body {
-        background: rgb(0, 0, 1);
-        background: linear-gradient(180deg, rgba(0, 0, 1, 1) 15%, rgba(34, 33, 33, 1) 92%, rgba(131, 131, 131, 1) 100%);
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    #aboutme {
-        margin: 0 100px;
-        margin-bottom: 100px;
-    }
-
 
 }
