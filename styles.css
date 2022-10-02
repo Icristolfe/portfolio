@@ -373,6 +373,31 @@ footer p {
         margin-bottom: 60px;
     }
 
+    .carrosel::-webkit-scrollbar {
+       display: none;
+    }
+    
+    .carrosel::-webkit-scrollbar-button {
+        display: none;
+    }
+    
+    .carrosel::-webkit-scrollbar-track {
+        display: none;
+    }
+    
+    .carrosel::-webkit-scrollbar-track-piece {
+        display: none;
+    }
+    
+    .carrosel::-webkit-scrollbar-thumb {
+        display: none;
+    }
+    
+    .carrosel::-webkit-scrollbar-corner {
+        display: none;
+    }
+    
+
     .card {
         width: 60%;
         height: 70%;
