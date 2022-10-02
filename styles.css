@@ -314,9 +314,12 @@ footer p {
     }
 
     .name {
-        margin-bottom: 75px;
-        margin-top: 60px;
+        margin-top: 180px;
         font-size: 35px;
+    }
+
+    .perfil {
+        display: none;
     }
 
     #aboutme {
